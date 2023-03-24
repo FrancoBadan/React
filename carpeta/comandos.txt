@@ -3,3 +3,6 @@ cd - para moverse entre las carpetas
 mkdir - crear carpetas 
 touch - crear archivos
 git add "." - puede ser nombre de un archivo o si se pone punto es para que se suba todo
+git commit -m - ingresa una guardado el -m es para poner un mensaje siemrpe es necesario
+git push - es para mandar directaemnte todas las modificaciones al github
+git status - muestra todos los cambios realisados desde el ultimo push
