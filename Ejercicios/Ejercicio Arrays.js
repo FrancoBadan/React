@@ -22,3 +22,14 @@ Marcos, Franco, Agostina, Leon, Juan Cruz,Eduardo */
 /* e)muestra la clasificación actualizada (mostrarClasificacion())y comprueba que se ha hecho correctamente  */
 
 
+let clasificaciones = ["Marcos", "Franco", "Agostina", "Leon", "Juan Cruz","Eduardo"];
+
+clasificaciones.forEach((e,i)=>console.log(`${i+1} - ${e}`))
+
+clasificaciones.pop("Eduardo")
+
+clasificaciones.shift("Marcos")
+
+clasificaciones.unshift("Alicia","Marcos","Julieta","Martina")
+
+clasificaciones.forEach((e,i)=>console.log(`${i+1} - ${e}`))
