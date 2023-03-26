@@ -200,6 +200,6 @@ deEuroAdolar(3)
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     //si ingresa una consonante muestre en pantalla dato incorrecto
   //Escribe tu código aquí
-esVocal = letra => letra.length!==1?console.log("Dato incorrecto"):letra==/[aeiou]/g?console.log("Es vocal"):console.log("No es vocal")
+esVocal = letra => letra.length!==1?console.log("Dato incorrecto"):(letra=="a"||letra=="e"||letra=="i"||letra=="o"||letra=="u")?console.log("Es vocal"):console.log("No es vocal");
 esVocal("a")
 
