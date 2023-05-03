@@ -1,4 +1,5 @@
 import {BrowserRouter,Route,Routes} from "react-router-dom";
+import {show} from "./component/Show"
 import './App.css';
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-<Route path="/" element="Show"/>
+<Route path="/" element={<show/>}/>
 <Route path="/create" element="Create"/>
 <Route path="/edit/:id" element="Edit"/>
       </Routes>
